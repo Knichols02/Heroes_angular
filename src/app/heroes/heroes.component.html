@@ -1,7 +1,7 @@
 <!-- allow editing of hero via two-way binding 
     [(ngModel)] is angulars two-way binding system syntax-->
     <h2>My Heroes</h2>
-    
+
     <ul class="heroes">
         <li *ngFor="let hero of heroes" 
             (click)="onSelect(hero)" 
@@ -10,4 +10,4 @@
         </li>
     </ul>
 
-    <app-hero-detail [hero]="selectedHero"></app-hero-detail>
+
